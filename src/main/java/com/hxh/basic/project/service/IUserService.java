@@ -29,4 +29,10 @@ public interface IUserService extends IService<User> {
      */
     PageVo<UserVo> listUser(ListUserForm listUserForm);
 
+    /**
+     * 删除用户
+     * @param id id
+     */
+    void deleteUser(String id);
+
 }

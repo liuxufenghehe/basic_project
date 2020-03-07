@@ -59,4 +59,15 @@ public class UserController {
         return ResultVoUtil.success(userService.listUser(listUserForm));
     }
 
+    /**
+     * 删除用户
+     * @param id 用户编号
+     * @return 成功或者失败
+     */
+    @ApiOperation("删除用户")
+    @DeleteMapping("/deleteUser/{id}")
+    public ResultVo deleteUser(@PathVariable("id") String id){
+        userService.deleteUser(id);
+        return ResultVoUtil.success();
+    }
 }

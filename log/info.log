@@ -1,0 +1,27 @@
+2020-03-07 21:09:51.971 [restartedMain] INFO  com.hxh.basic.project.BasicProjectApplication - Starting BasicProjectApplication on codedeMacBook-Pro.local with PID 20613 (/Users/code/IdeaProjects/basic_project/target/classes started by code in /Users/code/IdeaProjects/basic_project)
+2020-03-07 21:09:51.974 [restartedMain] INFO  com.hxh.basic.project.BasicProjectApplication - The following profiles are active: dev
+2020-03-07 21:09:52.011 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-07 21:09:52.011 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-07 21:09:53.097 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-07 21:09:53.107 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-07 21:09:53.108 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-07 21:09:53.108 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-07 21:09:53.172 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/basic_project] - Initializing Spring embedded WebApplicationContext
+2020-03-07 21:09:53.172 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1160 ms
+2020-03-07 21:09:53.504 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2020-03-07 21:09:54.080 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2020-03-07 21:09:54.533 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-07 21:09:54.616 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-07 21:09:54.648 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-07 21:09:54.783 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-07 21:09:54.799 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-07 21:09:54.827 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-07 21:09:54.985 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-07 21:09:55.020 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/basic_project'
+2020-03-07 21:09:55.024 [restartedMain] INFO  com.hxh.basic.project.BasicProjectApplication - Started BasicProjectApplication in 3.572 seconds (JVM running for 4.942)
+2020-03-07 21:10:01.732 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/basic_project] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-07 21:10:01.733 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-07 21:10:01.739 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-03-07 21:26:03.411 [Thread-12] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-07 21:26:03.416 [Thread-12] INFO  com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown initiated...
+2020-03-07 21:26:03.437 [Thread-12] INFO  com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown completed.

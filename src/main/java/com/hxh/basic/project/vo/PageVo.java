@@ -45,7 +45,7 @@ public class PageVo<T> {
     private Integer size;
 
     /**
-     * 这种当前页 和每页显示的数量
+     * 设置当前页和每页显示的数量
      * @param pageForm 分页表单
      * @return 返回分页信息
      */

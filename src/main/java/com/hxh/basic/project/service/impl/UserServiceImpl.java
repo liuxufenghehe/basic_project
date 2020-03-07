@@ -3,10 +3,13 @@ package com.hxh.basic.project.service.impl;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.hxh.basic.project.entity.User;
+import com.hxh.basic.project.enums.ResultEnum;
+import com.hxh.basic.project.exception.CustomException;
 import com.hxh.basic.project.form.user.AddUserForm;
 import com.hxh.basic.project.form.user.ListUserForm;
 import com.hxh.basic.project.mapper.UserMapper;
 import com.hxh.basic.project.service.IUserService;
+import com.hxh.basic.project.utils.MethodUtil;
 import com.hxh.basic.project.vo.PageVo;
 import com.hxh.basic.project.vo.UserVo;
 import lombok.AllArgsConstructor;
@@ -45,6 +48,18 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
         pageVo.setTotal(countUser(listUserForm.getStatus()));
         pageVo.setRecords(userMapper.listUser(listUserForm.calcCurrent()));
         return pageVo;
+    }
+
+    /**
+     * 删除用户
+     * @param id id
+     */
+    @Override
+    public void deleteUser(String id) {
+        // 如果删除失败抛出异常。 -- 演示而已不推荐这样干
+        if(!removeById(id)){
+            throw new CustomException(ResultEnum.DELETE_ERROR, MethodUtil.getLineInfo());
+        }
     }
 
     /**
