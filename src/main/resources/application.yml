@@ -2,11 +2,11 @@ server:
   # 服务器端口号
   port: 8080
   servlet:
-    context-path: /project
+    context-path: /basic_project
 spring:
   profiles:
     # 选择环境
-    active: dev
+    active: @activatedProperties@
   # 配置数据库连接池
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
@@ -36,6 +36,12 @@ spring:
         max-wait: -1ms
         max-idle: 8
         min-idle: 0
+
+# mybatis_plus
+mybatis-plus:
+  # xml路径
+  mapper-locations: classpath:mapping/*Mapper.xml
+
 # 配置swagger
 swagger:
   version: 2.0
@@ -43,4 +49,4 @@ swagger:
   title: 基础项目
   description: 接口文档
   # 扫描的包路径
-  basePackage: com.hxh.project.controller
+  basePackage: com.hxh.basic.project.controller
