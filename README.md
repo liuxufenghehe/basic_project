@@ -604,8 +604,6 @@ public void deleteUser(String id) {
 
 &emsp;&emsp;所有手动抛出的错误信息，都应在错误信息枚举`ResultEnum`进行统一维护。不同的业务使用不同的错误码。方便在报错时进行分辨。快速定位问题。
 
----
-
 ### 多环境配置
 
 #### SpringBoot多环境配置
