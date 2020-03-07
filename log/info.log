@@ -46,3 +46,6 @@
 2020-03-07 21:48:19.167 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
 2020-03-07 21:48:19.200 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/basic_project'
 2020-03-07 21:48:19.204 [restartedMain] INFO  com.hxh.basic.project.BasicProjectApplication - Started BasicProjectApplication in 4.02 seconds (JVM running for 5.569)
+2020-03-07 22:14:58.259 [Thread-13] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-07 22:14:58.262 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown initiated...
+2020-03-07 22:14:58.264 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown completed.
