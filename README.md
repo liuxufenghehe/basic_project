@@ -678,8 +678,6 @@ mvn clean package -P test
 
 &emsp;&emsp;打包完可以解压开查看`application.yml` 会发现`spring.profiles.active=@activatedProperties@` 发生了改变。
 
----
-
 ### 日志配置
 
 采用logback[日志配置](https://gitee.com/huangxunhui/basic_project/blob/master/src/main/resources/logback-spring.xml)
@@ -687,8 +685,6 @@ mvn clean package -P test
 ### JenkinsFile
 
 &emsp;&emsp;JenkinsFile肯定顾名思义是给jenkins用的。主要是配置项目根据如何进行构建并发布到不同的环境。需要去了解pipeline语法，以及如何配置jenkins。[JenkinsFileDemo](https://gitee.com/huangxunhui/basic_project/blob/master/Jenkinsfile)
-
----
 
 ### 代码地址
 
