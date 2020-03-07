@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Profile;
 import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.service.ApiInfo;
@@ -26,6 +27,7 @@ import java.util.Collection;
 @Configuration
 @EnableSwagger2
 @AllArgsConstructor
+@Profile({"dev", "test"})
 @EnableConfigurationProperties(SwaggerInfo.class)
 public class SwaggerConfiguration {
 
