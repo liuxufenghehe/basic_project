@@ -2,11 +2,9 @@ package com.hxh.basic.project.controller;
 
 
 import com.hxh.basic.project.enums.ResultEnum;
-import com.hxh.basic.project.exception.CustomException;
 import com.hxh.basic.project.form.user.AddUserForm;
 import com.hxh.basic.project.form.user.ListUserForm;
 import com.hxh.basic.project.service.IUserService;
-import com.hxh.basic.project.utils.MethodUtil;
 import com.hxh.basic.project.utils.ResultVoUtil;
 import com.hxh.basic.project.vo.ResultVo;
 import com.hxh.basic.project.vo.UserVo;
@@ -58,10 +56,7 @@ public class UserController {
             @ApiResponse(code = 200, message = "操作成功", response = UserVo.class)
     )
     public ResultVo listUser(@Validated ListUserForm listUserForm){
-        throw  new CustomException(ResultEnum.ADD_ERROR, MethodUtil.getLineInfo());
-//        return ResultVoUtil.success(userService.listUser(listUserForm));
+        return ResultVoUtil.success(userService.listUser(listUserForm));
     }
-
-
 
 }
