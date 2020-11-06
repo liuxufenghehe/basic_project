@@ -3,7 +3,7 @@ package com.hxh.basic.project.utils;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * @author 黄训辉
+ * @author Jlxf
  * Date: Created in 18/5/20 下午4:49
  * Utils: Intellij Idea
  * Description: 获取当前方法和行号
