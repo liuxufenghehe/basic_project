@@ -8,7 +8,7 @@ import lombok.Data;
 import java.time.LocalDateTime;
 
 /**
- * @author huangxunhui
+ * @author Jlxf
  * Date: Created in 2020/3/6 4:13 下午
  * Utils: Intellij Idea
  * Description: 用户视图模型

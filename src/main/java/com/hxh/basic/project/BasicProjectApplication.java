@@ -7,7 +7,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 /**
- * @author huangxunhui
+ * @author Jlxf
  * Date: Created in 2019-03-12 11:29
  * Utils: Intellij Idea
  * Description: 启动类

@@ -89,13 +89,13 @@ public class ListUserForm extends PageForm<ListUserForm> {
 }
 ```
 
-对应的swagger的配置可以查看[基础项目](https://gitee.com/huangxunhui/basic_project.git)内的[`SwaggerConfiguration.java`](https://gitee.com/huangxunhui/basic_project/blob/master/src/main/java/com/hxh/basic/project/config/swagger/SwaggerConfiguration.java).
+对应的swagger的配置可以查看[基础项目](https://gitee.com/Jlxf/basic_project.git)内的[`SwaggerConfiguration.java`](https://gitee.com/Jlxf/basic_project/blob/master/src/main/java/com/hxh/basic/project/config/swagger/SwaggerConfiguration.java).
 
 ### CodeGenerator代码生成器。
 
 &emsp;&emsp; mybatis_plus代码生成器可以帮我们生成`entity`,`service`,`serviceImpl`,`mapper`,`mapper.xml`。省去了建立一大堆实体类的麻烦。
 
-&emsp;&emsp;由于配置太长这里就不贴出来了，对应的CodeGenerator的配置可以查看[基础项目](https://gitee.com/huangxunhui/basic_project.git)内的[`CodeGenerator.java`](https://gitee.com/huangxunhui/basic_project/blob/master/src/main/java/com/hxh/basic/project/config/mybatis/plus/CodeGenerator.java).
+&emsp;&emsp;由于配置太长这里就不贴出来了，对应的CodeGenerator的配置可以查看[基础项目](https://gitee.com/Jlxf/basic_project.git)内的[`CodeGenerator.java`](https://gitee.com/Jlxf/basic_project/blob/master/src/main/java/com/hxh/basic/project/config/mybatis/plus/CodeGenerator.java).
 
 ----
 
@@ -395,7 +395,7 @@ public ResultVo listUser(@Validated ListUserForm listUserForm){
 }
 ```
 
-![](https://cos.huangxunhui.com/blog/basic_project/postman_list_user.png)
+![](https://cos.Jlxf.com/blog/basic_project/postman_list_user.png)
 
 ##### 注意的点
 
@@ -529,7 +529,7 @@ public enum ResultEnum {
 
 #### 全局异常拦截
 
-全局异常拦截是使用`@ControllerAdvice`进行实现，常用的异常拦截配置可以查看 [GlobalExceptionHandling](https://gitee.com/huangxunhui/basic_project/blob/master/src/main/java/com/hxh/basic/project/aop/GlobalExceptionHandling.java)。
+全局异常拦截是使用`@ControllerAdvice`进行实现，常用的异常拦截配置可以查看 [GlobalExceptionHandling](https://gitee.com/Jlxf/basic_project/blob/master/src/main/java/com/hxh/basic/project/aop/GlobalExceptionHandling.java)。
 
 ```java
 @Slf4j
@@ -680,18 +680,18 @@ mvn clean package -P test
 
 ### 日志配置
 
-采用logback[日志配置](https://gitee.com/huangxunhui/basic_project/blob/master/src/main/resources/logback-spring.xml)
+采用logback[日志配置](https://gitee.com/Jlxf/basic_project/blob/master/src/main/resources/logback-spring.xml)
 
 ### JenkinsFile
 
-&emsp;&emsp;JenkinsFile肯定顾名思义是给jenkins用的。主要是配置项目根据如何进行构建并发布到不同的环境。需要去了解pipeline语法，以及如何配置jenkins。[JenkinsFileDemo](https://gitee.com/huangxunhui/basic_project/blob/master/Jenkinsfile)
+&emsp;&emsp;JenkinsFile肯定顾名思义是给jenkins用的。主要是配置项目根据如何进行构建并发布到不同的环境。需要去了解pipeline语法，以及如何配置jenkins。[JenkinsFileDemo](https://gitee.com/Jlxf/basic_project/blob/master/Jenkinsfile)
 
 ### 代码地址
 
->  https://gitee.com/huangxunhui/basic_project.git
+>  https://gitee.com/Jlxf/basic_project.git
 
 ### 结尾
 
 &emsp;&emsp;如果觉得对你有帮助，可以多多评论，多多点赞哦，也可以到我的主页看看，说不定有你喜欢的文章，也可以随手点个关注哦，谢谢。
 
-![](https://cos.huangxunhui.com/blog/个人铭牌.png)
+![](https://cos.Jlxf.com/blog/个人铭牌.png)

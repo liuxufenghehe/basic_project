@@ -6,7 +6,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 /**
- * @author huangxunhui
+ * @author Jlxf
  * Date: Created in 2018-12-18 10:25
  * Utils: Intellij Idea
  * Description: 自定义异常

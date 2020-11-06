@@ -5,7 +5,7 @@ import com.hxh.basic.project.enums.ResultEnum;
 import com.hxh.basic.project.vo.ResultVo;
 
 /**
- * @author huangxunhui
+ * @author Jlxf
  * Date: Created in 18/8/20 上午11:05
  * Utils: Intellij Idea
  * Description: 返回数据工具类

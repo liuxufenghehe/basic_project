@@ -4,7 +4,7 @@ package com.hxh.basic.project.enums;
 import lombok.Getter;
 
 /**
- * @author huangxunhui
+ * @author Jlxf
  * Date: Created in 18/8/29 上午9:54
  * Utils: Intellij Idea
  * Description: 返回状态枚举类

@@ -8,7 +8,7 @@ import org.hibernate.validator.constraints.Range;
 import javax.validation.constraints.Min;
 
 /**
- * @author huangxunhui
+ * @author Jlxf
  * Date: Created in 2019-05-22 11:52
  * Utils: Intellij Idea
  * Description: 分页需要的表单数据

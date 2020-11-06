@@ -35,7 +35,7 @@ pipeline {
         credentialsId = 'd9e49f50-f989-48d7-96b2-cd9f3cdc7f4f'
 
         // 仓库地址
-        repositoryUrl = 'https://gitee.com/huangxunhui/basic_project.git'
+        repositoryUrl = 'https://github.com/liuxufenghehe/basic_project.git'
 
         // 打包命令
         mavenProd = 'mvn clean package -P prod -Dmaven.test.skip=true'

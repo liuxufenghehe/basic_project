@@ -5,7 +5,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 /**
- * @author huangxunhui
+ * @author Jlxf
  * Date: Created in 18/8/29 上午9:54
  * Utils: Intellij Idea
  * Description: swagger 配置信息

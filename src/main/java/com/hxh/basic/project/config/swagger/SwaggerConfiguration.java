@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 /**
- * @author huangxunhui
+ * @author Jlxf
  * Date: Created in 18/8/29 上午9:54
  * Utils: Intellij Idea
  * Description: swagger配置类

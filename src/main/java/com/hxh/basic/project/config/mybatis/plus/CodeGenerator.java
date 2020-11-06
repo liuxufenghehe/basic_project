@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author huangxunhui
+ * @author Jlxf
  * Date: Created in 2019-03-12 11:29
  * Utils: Intellij Idea
  * Description: 代码生成器
@@ -42,7 +42,7 @@ public class CodeGenerator {
     /**
      * 作者
      */
-    private static final String AUTHOR = "huangxunhui";
+    private static final String AUTHOR = "Jlxf";
 
     /**
      * 父包名
